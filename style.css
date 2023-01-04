@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, yellow, green);
+    align-items: center;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+.timer {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+#seconds {
+    padding-left: 200px;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline-start: 200px;
+}
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(yellow, yellow, green, .5);
+}
+button {
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hide {
+    display: none;
+}

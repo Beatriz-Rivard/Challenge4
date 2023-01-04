@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100&display=swap' rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Code Quiz</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Code Quiz</h1>
+        <div class = "timer">
+            <span id="seconds">00</span>
+            <span class="timer">sec</span>
+        </div>
+    </div>
+<p> Welcome to the game! You have 1 min to answer all the questions correctly.</p>
+<p>Good Luck!</p>
+    <div>
+        <button class="btnHeader" id="view-high-scores">View High Scores</button>
+    </div>
+    <div class = "container">
+        <button class="btn" id="startBtn">Start</button>
+        <div id="question-container" class="hide">
+            <button class="btn">Question 1</button>
+            <button class="btn">Question 2</button>
+            <button class="btn">Question 3</button>
+            <button class="btn">Question 4</button>
+        </div>
+    </div>
+    <div class="controls">
+        <button id="next-btn" class="next-btn btn hide">Next</button>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
